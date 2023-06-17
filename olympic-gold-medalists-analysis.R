@@ -230,7 +230,7 @@ reorganized_data_lower_w <- lower_avg_ages_women_per_year %>%
 colors <- c("#FE4C00", "#FFDF2B", "#0050F5", "#000000", "#2eb8ac")
 graph <- ggplot(reorganized_data_lower_w, aes(x = Year, y = Age, color = Sport)) +
   geom_line(linewidth = 0.8) +
-  labs(x = "Year", y = "Age", title = "Lower Average Gold Medalist Heights per Sport - Women") +
+  labs(x = "Year", y = "Age", title = "Lower Average Gold Medalist Ages per Sport - Women") +
   scale_color_manual(values = colors)   
 
 # Show Graph
